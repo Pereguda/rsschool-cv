@@ -16,7 +16,7 @@ I want to learn Front-End Development
 - JavaScript (Basic)
 - Git (Basic)
 - VS Code 
-- Figma
+- Figma (Basic)
 
 ### Code Example
     function hello(){
