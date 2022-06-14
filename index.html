@@ -1,16 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/resetcss.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <title>CV#3</title>
 </head>
+
 <body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#contacts" class="nav_link">Contacts</a>
+                </li>
+                <li>
+                    <a href="#aboutme" class="nav_link">About Me</a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav_link">Skills</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav_link">Experience</a>
+                </li>
+                <li>
+                    <a href="#сode" class="nav_link">Code</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav_link">Projects</a>
+                </li>
+                <li>
+                    <a href="#education" class="nav_link">Education</a>
+                </li>
+                <li>
+                    <a href="#languages" class="nav_link">Languages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main class="main">
+        <img src="images/me.jpg" alt="It's me" id="me" />
         <h1>Anatoliy Pereguda</h1>
         <h3>Future Front-End Developer</h3>
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul class="contacts-list">
+                <li>Kazakhstan, Almaty</li>
+                <li>Phone: +7 707 888 0091</li>
+                <li>Email: <a href="pereguda@gmail.com" class="contacts_link"> pereguda@gmail.com </a></li>
+                <li>GitHub: <a href="https://github.com/Pereguda" class="contacts_link"> Pereguda </a></li>
+            </ul>
+        </section>
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <div class=about-me>
+                <p>I want to learn Front-End Development</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git (Basic)</li>
+                <li>VS Code</li>
+                <li>Figma (Basic)</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class=experience-me>
+                <p>Experience at electronics maintenance, IT system administration, programming in 1C, but not at
+                    FrontEnd</p>
+            </div>
+        </section>
+        <section id="сode">
+            <h2>Code</h2>
+            <div class=code-me>
+                <p>Training code from Learn JavaScript JS</p>
+            </div>
+            <div class="code-list">
+                <pre><code>
+                    function hello(){
+                        console.log("Hello RSSchool");
+                    }
+                </code></pre>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class=projects-me>
+                <p>Study projects completed for self-study</p>
+            </div>
+            <ul class="projects-list">
+                <li>Layout 1 <a target="_blank" href="https://pereguda-test01.netlify.app/"><img src="images/010.jpg"
+                            alt="Project 1" width="150" class="project-img" /></a></li>
+                <li>Layout 2 <a target="_blank" href="https://pereguda-test02.netlify.app/"><img src="images/020.jpg"
+                            alt="Project 2" width="150" class="project-img" /></a></li>
+                <li>Layout 3 <a target="_blank" href="https://pereguda-test03.netlify.app/"><img src="images/030.jpg"
+                            alt="Project 3" width="150" class="project-img" /></a></li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul class="education-list">
+                <li>University: <a href="https://aues.edu.kz/en" class="education_link"> Almaty University of Power
+                        Engineering and Telecommunications </a></li>
+                <li>Course: <a href="https://ru.code-basics.com/" class="education_link"> Code-Basics JS (in process…)
+                    </a></li>
+                <li>Course: <a href="https://learn.javascript.ru/" class="education_link"> Learn JavaScript JS (in
+                        process…) </a></li>
+                <li>Course: <a href="https://app.rs.school/" class="education_link"> RS Schools JS/FE Stage 0 (in
+                        process…) </a></li>
+            </ul>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul class="languages-list">
+                <li>Russian - native speaker</li>
+                <li>English - A1 (A2 in proccess)</li>
+            </ul>
+        </section>
     </main>
+    <footer class="footer">
+        <p>2022</p>
+        <a target="_blank" href="https://github.com/Pereguda"><img src="images/github.svg" alt="GitHab link"
+                width="64" /></a>
+        <a target="_blank" href="https://rs.school/js/"><img src="images/rs_school_js.svg" alt="RSSchool link"
+                width="64" /></a>
+    </footer>
 </body>
+
 </html>
